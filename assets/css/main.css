@@ -1,0 +1,246 @@
+footer {
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  color: #fff;
+}
+footer div {
+  display: flex;
+  gap: 20px;
+}
+
+.header {
+  max-width: 1440px;
+  margin: auto;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/hero_1.jpg.webp");
+}
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+.header .navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.header .navbar .btn_activ {
+  z-index: 5;
+  right: 50px;
+}
+.header .click_section {
+  display: none;
+}
+.header .header_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+  gap: 20px;
+  color: white;
+  text-align: center;
+}
+.header .header_section h1 {
+  font-size: 70px;
+}
+.header .header_section h3 {
+  font-size: 40px;
+}
+.header .header_section .btn {
+  display: flex;
+  gap: 20px;
+}
+.header .header_section .btn .chose {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: rgb(177, 78, 78);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.header .header_section .btn .dovland {
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.header .header_section .btn .dovland:hover {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  color: black;
+}
+@media screen and (max-width: 768px) {
+  .header .header_section .btn {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.btn_x {
+  max-width: 1440px;
+  margin: auto;
+  display: flex !important;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 40px;
+  position: fixed;
+  top: 0px;
+}
+.btn_x .clik_home ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  list-style: none;
+}
+.btn_x .clik_home ul li a {
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+}
+.btn_x .clik_home ul li a:hover {
+  background-color: red;
+}
+.btn_x .CONTACT_INFO {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.btn_x .CONTACT_INFO h2 {
+  color: #adb5bd;
+}
+.btn_x .CONNECT_WITH {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.btn_x .CONNECT_WITH h2 {
+  color: #adb5bd;
+}
+@media screen and (max-width: 768px) {
+  .btn_x {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1440px;
+  margin: auto;
+}
+main .visit_section {
+  padding: 40px;
+}
+main .visit_section .my_cantiner {
+  display: flex;
+  gap: 10px;
+}
+main .visit_section .my_cantiner .card {
+  max-width: 24%;
+}
+main .visit_section .my_cantiner .card img {
+  max-width: 100%;
+}
+main .visit_section .my_cantiner .card i {
+  color: red;
+}
+main .visit_section .my_cantiner .card p {
+  right: 5px;
+  bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+  main .visit_section .my_cantiner {
+    display: flex;
+    flex-direction: column;
+  }
+  main .visit_section .my_cantiner .card {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+main .place_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+}
+main .place_section h1 {
+  font-size: 80px;
+  max-width: 60%;
+}
+main .place_section p {
+  max-width: 60%;
+  font-size: 20px;
+}
+main .chose_photo {
+  padding: 40px;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/round.png.webp");
+}
+main .Recent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/round.png.webp");
+}
+main .Recent h1 {
+  font-size: 80px;
+  max-width: 60%;
+}
+main .Recent p {
+  max-width: 60%;
+  font-size: 20px;
+}
+main .img_section {
+  display: flex;
+  padding: 50px;
+  gap: 20px;
+  background-image: url("https://preview.colorlib.com/theme/villa/img/round.png.webp");
+}
+main .img_section .img_card {
+  max-width: 32%;
+}
+main .img_section .img_card img {
+  width: 100%;
+  cursor: pointer;
+}
+main .img_section .img_card h3:hover {
+  color: red;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  main .img_section {
+    display: flex;
+    flex-direction: column;
+  }
+  main .img_section .img_card {
+    max-width: 100%;
+    width: 100%;
+  }
+}

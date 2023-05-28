@@ -1,0 +1,151 @@
+
+
+.header{
+    max-width: 1440px;
+    margin: auto;
+    background-image: url("https://preview.colorlib.com/theme/villa/img/hero_1.jpg.webp");
+    
+    
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+            
+        }
+        .btn_activ{
+            z-index: 5;
+            right: 50px;
+        }
+      
+       
+       
+    }
+    .click_section{
+        display: none;
+        
+    }
+    .header_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:200px ;
+        gap: 20px;
+        color: white;
+        text-align: center;
+        h1{
+            font-size: 70px;
+        }
+        h3{
+            font-size: 40px;
+        }
+        .btn{
+            display: flex;
+            gap: 20px;
+            .chose{
+                
+                padding: 10px 30px;
+                border-radius: 15px;
+                background-color: rgb(177, 78, 78);
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+            .dovland{
+                text-decoration: none;
+                color: white;
+                padding: 10px 30px;
+                border-radius: 15px;
+                border: 1px solid white;
+                cursor: pointer;
+            }
+            .dovland:hover{
+                padding: 10px 30px;
+                border-radius: 15px;
+                background-color: white;
+                border: 1px solid white;
+                cursor: pointer;
+                color: black;
+            }
+        }
+    }
+    @media screen and (max-width:768px){
+        
+            .header_section{
+              .btn{
+                display: flex;
+                flex-direction: column;
+              }  
+            }
+        
+    }
+}
+.btn_x{
+    max-width: 1440px;
+    margin: auto;
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+        gap: 30px;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        padding: 40px;
+        position: fixed;
+        top: 0px;
+        // opacity: 50;
+        
+        
+
+    .clik_home{
+        
+        ul{
+            display: flex;
+        flex-direction: column;
+        gap: 30px;
+            list-style: none;
+            li{
+                
+                a{
+                    text-decoration: none;
+                    font-size: 40px;
+                    color: black;
+                }
+                
+
+                a:hover{
+                    background-color: red ;
+                }
+            }
+        }
+    }
+    .CONTACT_INFO{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h2{
+            color: #adb5bd;
+        }
+    }
+    .CONNECT_WITH{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        h2{
+            color: #adb5bd;
+        }  
+    }
+    @media screen and (max-width:768px){
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+}

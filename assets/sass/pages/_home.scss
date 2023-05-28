@@ -1,0 +1,128 @@
+main {
+    max-width: 1440px;
+    margin: auto;
+
+    .visit_section {
+        padding: 40px;
+
+        .my_cantiner {
+            display: flex;
+            gap: 10px;
+
+            .card {
+                
+                max-width: 24%;
+
+                img {
+                    max-width: 100%;
+                }
+
+                i {
+                    color: red;
+                }
+
+                p {
+                    
+                    right: 5px;
+                    bottom: 0px;
+                }
+            }
+
+
+
+
+
+
+        }
+
+        @media screen and (max-width:768px) {
+            .my_cantiner {
+                display: flex;
+                flex-direction: column;
+
+                .card {
+                    max-width: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+.place_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    
+    h1{
+        font-size: 80px;
+        max-width: 60%;
+    }
+    p{
+        max-width: 60%;
+        font-size: 20px;
+    }
+}
+
+.chose_photo{
+    padding: 40px;
+    background-image: url("https://preview.colorlib.com/theme/villa/img/round.png.webp");
+}
+.Recent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    background-image: url("https://preview.colorlib.com/theme/villa/img/round.png.webp");
+    
+    h1{
+        font-size: 80px;
+        max-width: 60%;
+    }
+    p{
+        max-width: 60%;
+        font-size: 20px;
+    }
+}
+.img_section{
+display: flex;
+padding: 50px;
+gap:20px;
+background-image: url("https://preview.colorlib.com/theme/villa/img/round.png.webp");
+
+.img_card{
+    max-width: 32%;
+    img{
+        width: 100%;
+        cursor: pointer;
+    }
+    h3:hover{
+        color: red;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:768px){
+    display: flex;
+    flex-direction: column;
+.img_card{
+max-width: 100%;
+width: 100%;
+}
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+}
